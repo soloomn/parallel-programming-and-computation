@@ -11,7 +11,7 @@ static double dln(double x, double y) // расстояние от любой точки до начала отс
 	return sqrt(x * x + y * y);
 }
 
-int main(int argc, char* argcv[]) // указатель на командную строчку, и количество параметров в коммандной строке
+int mainlab2(int argc, char* argcv[]) // указатель на командную строчку, и количество параметров в коммандной строке
 {
 	double x[n], y[n], * lx, * ly, min, xmin, ymin, lmin, a, b; // вещественные числа массива
 	int i, np, size, * len; // целое с длинной, так как len - переменная величина(поэтому пишем указатель *)
